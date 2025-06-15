@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div>
+    <h2>Tech Fest Registration Form</h2>
+    <form>
+      <div>
+        <label for="name">Enter your name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+      </div>
+      <div>
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+      <div>
+        <label for="department" >Department</label>
+        <select id="department" required>
+          <option value="">Choose...</option>
+          <option>Computer Science</option>
+          <option>Electronics</option>
+          <option>Mechanical</option>
+          <option>Civil</option>
+          <option>Electrical</option>
+        </select>
+      </div>
+      <div>
+        <label>Year</label>
+        <div>
+          <input  type="radio" name="year" id="first" value="First Year" required>
+          <label  for="first">First</label>
+        </div>
+        <div >
+          <input type="radio" name="year" id="second" value="Second Year">
+          <label for="second">Second</label>
+        </div>
+        <div>
+          <input type="radio" name="year" id="third" value="Third Year">
+          <label for="third">Third</label>
+        </div>
+        <div>
+          <input type="radio" name="year" id="final" value="Final Year">
+          <label for="final">Final</label>
+        </div>
+      </div>
+      <div >
+        <label>Events Interested In</label>
+        <div>
+          <input type="checkbox" value="Coding" id="coding">
+          <label for="coding">Coding Contest</label>
+        </div>
+        <div>
+          <input type="checkbox" value="Robotics" id="robotics">
+          <label for="robotics">Robotics</label>
+        </div>
+        <div>
+          <input type="checkbox" value="Gaming" id="gaming">
+          <label for="gaming">Gaming</label>
+        </div>
+        <div>
+          <input type="checkbox" value="Quiz" id="quiz">
+          <label for="quiz">Tech Quiz</label>
+        </div>
+      </div>
+      <div >
+        <label for="comments">Any Suggestions or Comments</label>
+        <textarea id="comments" rows="3" placeholder="Write here..."></textarea>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
